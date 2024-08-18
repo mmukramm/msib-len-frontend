@@ -10,7 +10,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
       <li class="menu-header">Main</li>
       <li>
-        <a href="<?php base_url() ?>dashboard" class="nav-link "><i class="fas fa-fire"></i><span>Project</span></a>
+        <a href="<?php echo base_url(); ?>" class="nav-link "><i class="fas fa-fire"></i><span>Project</span></a>
       </li>
       <li>
         <a class="nav-link" href="<?php echo base_url(); ?>location"><i class="fas fa-map-marker"></i> <span>Location</span></a>
